@@ -12,20 +12,24 @@ const Member_in = () => {
     <div className={styles.content}>
       <h1>this is member add page</h1>
     </div>
-<div className={styles.addlocation}>
-  <button className={styles.addbutton}>
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-      width={24}
-      height={24}
-      fill="currentColor"
+<div className={styles.addlocation} >
+  <Link href="/input_info" className={styles.logoLink}>
+    <button className={styles.addbutton}>
+       <svg
+         xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+         width={24}
+        height={24}
+        fill="currentColor"
     >
       <path d="M0 0h24v24H0V0z" fill="none" />
       <path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z" />
     </svg>
     <span>Add</span>
   </button>
+  </Link>
+ 
+
 </div>
 </div>
   

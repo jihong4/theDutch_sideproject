@@ -14,7 +14,7 @@ const Home = () => {
         <button className={styles.startbutton}>
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 24 24"
+    viewBox="0 0 12 12"
     width={24}
     height={24}
   >
