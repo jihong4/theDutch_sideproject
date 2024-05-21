@@ -13,3 +13,37 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.globalbutton {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: linear-gradient(0deg, rgba(0, 112, 243, 0.8) 0%, rgba(0, 112, 243, 0.8) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em rgba(0, 112, 243, 0.48);
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.globalbutton svg {
+  margin-right: 6px;
+}
+
+.globalbutton:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em rgba(0, 112, 243, 0.8);
+}
+
+.globalbutton:active {
+  box-shadow: 0 0.3em 1em -0.5em rgba(0, 112, 243, 0.8);
+}
+
+.globallocation {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem; /* 버튼과 컨텐츠 사이의 간격을 조절할 수 있습니다. */
+}

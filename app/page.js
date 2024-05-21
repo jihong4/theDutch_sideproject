@@ -1,4 +1,6 @@
 import React from 'react';
+//import '../styles/global.css' // global.css 파일의 경로를 지정합니다.
+
 import styles from './styles/Home.module.css';
 
 import Link from 'next/link';
@@ -9,9 +11,9 @@ const Home = () => {
       <div className={styles.logoContainer}>
         <img src="/images/logo_Ver2.jpg" alt="Logo" className={styles.logo} />
       </div>
-      <div className={styles.startlocation}>
+      <div className="globallocation">
         <Link href="/member_input" className={styles.startbutton}>
-        <button className={styles.startbutton}>
+        <button className="globalbutton">
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 12 12"

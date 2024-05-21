@@ -13,7 +13,7 @@ const Member_in = () => {
       <h1>this is member add page</h1>
     </div>
 <div className={styles.addlocation} >
-  <Link href="/input_info" className={styles.logoLink}>
+  <Link href="/input_info" >
     <button className={styles.addbutton}>
        <svg
          xmlns="http://www.w3.org/2000/svg"
